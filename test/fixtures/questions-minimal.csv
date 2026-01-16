@@ -1,0 +1,3 @@
+ID;question label en;question label fr;content;relatedQuestion ID;order;unit;enum en;enum fr
+S1-6_01;Global employees;Employés globaux;Table;;0;;;
+S1-6_02;Number of employees;Nombre d'employés;number;S1-6_01;0;;;

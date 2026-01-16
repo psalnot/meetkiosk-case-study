@@ -1,0 +1,19 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app:cached
+      - remix_node_modules:/app/node_modules
+      # Mask node_modules to avoid macOS filesystem issues
+    environment:
+      # Required for file watching in containers on macOS
+      - CHOKIDAR_USEPOLLING=true
+      - PORT=3000
+      - NODE_ENV=development
+    stdin_open: true
+    tty: true
+
+volumes:
+  remix_node_modules:

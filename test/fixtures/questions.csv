@@ -1,0 +1,4 @@
+ID;question label en;question label fr;content;relatedQuestion ID;order;unit;enum en;enum fr
+S1-6_01;Global employees;Employés globaux;Table;;0;;;
+S1-6_02;Number of employees (end of period);Nombre d'employés (fin de période);number;S1-6_01;0;;;
+S1-6_14;Is the data provided in terms of number of people or full-time equivalents?;Les données sont-elles fournies en nombre de personnes ou en equivalent temps plein ? ;enum;S1-6_13;0;;Head-count, Full-time equivalent;Effectifs, Équivalent temps plein

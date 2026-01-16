@@ -123,7 +123,7 @@ This project leverages a **fine-tuned version of DeepSeek V3** to accelerate dev
 - **Documentation generation:** Automatically creates documentation from existing code, improving readability and maintainability
 - **TypeScript migration:** Converts `DSNReader.js` to TypeScript, ensuring stronger type safety and reducing potential runtime errors
 - **Unit test scaffolding:** Generates basic unit tests to verify core functionality and support future test coverage
-- - **Code review support:** Provides cursory feedback on code quality and suggestions for improvement
+- **Code review support:** Provides cursory feedback on code quality and suggestions for improvement
 
 
 

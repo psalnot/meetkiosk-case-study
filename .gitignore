@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+.cache
+Thumbs.db
+app/node_modules
+public/build
+# Logs
+*.log
+.readme.*
+
+# Env files
+.env
+.env.*
+
+
+
+#Directory
+DOC/
+build/
+node_modules/
+
